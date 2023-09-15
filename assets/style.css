@@ -1,0 +1,27 @@
+* {
+  background-color: lightblue;
+}
+
+.container {
+  align-items: center;
+  margin: auto;
+  border: 3px solid black;
+  width: 30%;
+}
+.name {
+  text-align: center;
+  display: block;
+  padding: 5px;
+}
+
+.email {
+  text-align: center;
+  padding: 5px;
+  display: block;
+}
+
+#submit {
+  padding: 5px;
+  display: block;
+  margin: auto;
+}
