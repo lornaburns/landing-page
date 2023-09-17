@@ -1,17 +1,59 @@
 * {
-  background-color: lightblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+li {
+  display: inline-block;
+  line-height: px;
+  font-size: 20px;
+  margin-right: 80px;
+  line-height: 60px;
+}
+
+.nav-bar {
+  background-color: black;
+  color: white;
+  text-align: right;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+}
+
+a {
+  color: white;
+}
+
+#my-new-website {
+  margin: auto;
+  padding: 100px 10px 10px 10px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  background-color: black;
+  border: 40px solid grey;
+  outline: 20px solid darkslategrey;
+  height: 300px;
+  width: 300px;
+  margin: 50px auto;
+  padding: 40px;
 }
 
 .container {
   align-items: center;
   margin: auto;
-  border: 3px solid black;
+  border: 5px solid black;
   width: 30%;
 }
 .name {
   text-align: center;
   display: block;
   padding: 5px;
+}
+
+input {
+  display: block;
+  margin: auto;
 }
 
 .email {
@@ -23,5 +65,11 @@
 #submit {
   padding: 5px;
   display: block;
-  margin: auto;
+  margin: 5px auto;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
